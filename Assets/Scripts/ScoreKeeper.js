@@ -32,8 +32,6 @@ function Update () {
 }
 
 function Score (scoreTrigger : GameObject ) {
-
-	Debug.Log("Score Script called!");
 	
 	// Written with maximum verbosity ;-)
 	if(scoreTrigger.name == leftScoreTrigger.name) {
