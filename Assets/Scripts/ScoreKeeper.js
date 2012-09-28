@@ -1,7 +1,7 @@
 #pragma strict
 
 // Yield reset time
-var yeildResetTime = .25;
+var yieldResetTime = .7;
 
 // Score
 var leftPlayerScore : int;
@@ -56,7 +56,7 @@ function Score (scoreTrigger : GameObject ) {
 		}
 	}
 	
-	yield WaitForSeconds(yeildResetTime);
+	yield WaitForSeconds(yieldResetTime);
 	// Add logic to determine if the game is over here;
 
 	// If the game isn't over, reset the scene
